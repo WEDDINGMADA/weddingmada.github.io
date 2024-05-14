@@ -1,0 +1,32 @@
+html {
+  font-size: 14px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+  font-family: "Raleway", sans-serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+  background-color: #e1f5c7;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p,
+li {
+  line-height: 2;
+  letter-spacing: 1px;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color:aliceblue;
+  padding: 0 20px 20px 20px;
+  border: 0.5px solid rgba(75, 131, 45, 0.302);
+}
+h1 {
+  margin: 30px;
+  padding: 20px 0;
+  color: #AED581;
+  text-shadow: 1px 1px 2px rgba(27, 42, 4, 0.754);
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
