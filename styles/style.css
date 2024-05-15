@@ -30,3 +30,6 @@ img {
   display: block;
   margin: 0 auto;
 }
+.button-container {
+  text-align: center;
+}
