@@ -12,13 +12,13 @@ let myHeading = document.querySelector("h1");
 function setUserName () {
   let myName = prompt("Veuillez saisir votre nom.");
   localStorage.setItem("nom", myName);
-  myHeading.textContent = "My perfect wedding day, especially for you " + myName
+  myHeading.textContent = "Wedding in Madagascar, especially for you " + myName
 }
 if (!localStorage.getItem("nom")) {
   setUserName();
 } else {
   let storedName = localStorage.getItem("nom");
-  myHeading.textContent = "My perfect wedding day, especially for you " + storedName
+  myHeading.textContent = "Wedding in Madagascar, especially for you " + storedName
 }
 myButton.addEventListener("click", function() {
   setUserName();
